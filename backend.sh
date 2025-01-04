@@ -65,7 +65,7 @@ unzip /tmp/backend.zip &>>$LOG_FILE
 VALIDATE $? "Extracting backend application code"
 
 npm install &>>$LOG_FILE
-cp /home/ec2-user/shell-practce/backend.service /etc/systemd/system/backend.service
+cp /home/ec2-user/shell-practice/backend.service /etc/systemd/system/backend.service
 
 # load the data before running backend
 
